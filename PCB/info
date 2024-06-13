@@ -1,0 +1,263 @@
+{
+  "uuid": "8cf07c1d4a4727d17f8db4cb7e126b35",
+  "path": "Offline/小菜鸡",
+  "name": "小菜鸡",
+  "content": "",
+  "created_at": "2023-11-06 18:56:23",
+  "updated_at": "2024-04-12 14:51:25",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "54c8f67ebf211160401a5a998463fcd1",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "cee660d2e0b34b8490c21f5b366385c6": 1,
+        "df00626dcbf3403e870a94c5b042ea93": 1,
+        "93da2832b80843a79e00fe68ce26a0ee": 1,
+        "e4aa1ff9e7394a499928830a2cd6613e": 1,
+        "898c9df16796451b92d8e7d0bd9fabcc": 1,
+        "44ec501f02de4e749a82c46f08934fe0": 1,
+        "c096be5030854dfbac993087785d6ad7": 1,
+        "c0f1849be996448ea264fc17368bae1d": 1,
+        "428b5fe38cb3456981c654fab9894931": 1,
+        "204c029ab6cb45d0b0ff5e070e59b91e": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "mpu6050__",
+          1,
+          "MPU6050",
+          "A1",
+          {
+            "Contributor": "520hs",
+            "spiceSymbolName": "mpu6050__",
+            "Manufacturer Part": "",
+            "puuid": "ad4aceaff0434a2e81f995f78c0ae8fc",
+            "uuid": "cee660d2e0b34b8490c21f5b366385c6"
+          }
+        ],
+        [
+          "ZH1.5-8A_C2829738",
+          1,
+          "CONN-TH_ZH1.5-8A_C2829738",
+          "CN1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2829738",
+            "Manufacturer": "FG(富港)",
+            "Manufacturer Part": "",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ZH1.5-8A_C2829738",
+            "puuid": "f25576e1e12c4792a9259a6aac54d5c1",
+            "uuid": "44ec501f02de4e749a82c46f08934fe0"
+          }
+        ],
+        [
+          "XT60PW-M-9.5-XT60",
+          1,
+          "CONN-TH_XT60PW-M_9.5_XT60",
+          "CN2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C98732",
+            "Manufacturer": "AMASS(艾迈斯)",
+            "Manufacturer Part": "XT60PW-M",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "mazhiliang",
+            "spiceSymbolName": "XT60PW-M-9.5-XT60",
+            "puuid": "5a52f3627e93469fbffe1922692072e9",
+            "uuid": "428b5fe38cb3456981c654fab9894931"
+          }
+        ],
+        [
+          "按键",
+          1,
+          "按键",
+          "S1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "ssssllll",
+            "spiceSymbolName": "按键",
+            "puuid": "b4d13479337443b6a92a02b8f11dc358",
+            "uuid": "204c029ab6cb45d0b0ff5e070e59b91e"
+          }
+        ],
+        [
+          "STM32F103C8T6",
+          1,
+          "STM32最小系统版底座",
+          "U1",
+          {
+            "Contributor": "xiayueluohua",
+            "spiceSymbolName": "STM32C8T6最小系统板 底座",
+            "Manufacturer Part": "",
+            "puuid": "8d9caedc536e4aa8ab27dcb08ef364c1",
+            "uuid": "df00626dcbf3403e870a94c5b042ea93"
+          }
+        ],
+        [
+          "0.96 OLED IIC_4PIN COPY",
+          1,
+          "OLED-TH_OLED0.96-IIC",
+          "U2",
+          {
+            "Contributor": "two-way",
+            "spiceSymbolName": "0.96 OLED IIC_4PIN COPY",
+            "Manufacturer Part": "",
+            "puuid": "c12d8e8eff79432e98605595b2fdd35d",
+            "uuid": "93da2832b80843a79e00fe68ce26a0ee"
+          }
+        ],
+        [
+          "LM2596-ADJ电源模块 COPY  直插",
+          1,
+          "LM2596-ADJ模块",
+          "U3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "ACDC",
+            "spiceSymbolName": "LM2596-ADJ电源模块 COPY  直插",
+            "puuid": "3b1ef10fc5414eb6892c34e6bcd68bb1",
+            "uuid": "e4aa1ff9e7394a499928830a2cd6613e"
+          }
+        ],
+        [
+          "BX-PH2.0-6PWZ",
+          1,
+          "CONN-TH_6P-P2.00_BX-PH2.0-6PWZ",
+          "U4",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C18077757",
+            "Manufacturer": "Bossie(博锡)",
+            "Manufacturer Part": "",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "BX-PH2.0-6PWZ",
+            "puuid": "f66a4f5765984e949304af5f841dcb0b",
+            "uuid": "898c9df16796451b92d8e7d0bd9fabcc"
+          }
+        ],
+        [
+          "TB6612驱动模块",
+          1,
+          "TB6612驱动模块",
+          "U6",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "fragranthaze",
+            "spiceSymbolName": "TB6612驱动模块",
+            "puuid": "32c683d445e1406c86800121870e3ecd",
+            "uuid": "c096be5030854dfbac993087785d6ad7"
+          }
+        ],
+        [
+          "HX SS12D10G4",
+          1,
+          "SW-TH_SHOU-HAN_SS12D10G4",
+          "U7",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5149841",
+            "Manufacturer": "hanxia(韩下)",
+            "Manufacturer Part": "",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "HX SS12D10G4",
+            "puuid": "04131258d9c54fdd927bf7645adcf864",
+            "uuid": "c0f1849be996448ea264fc17368bae1d"
+          }
+        ]
+      ],
+      "updateTime": 1712904685,
+      "createTime": 1699268183,
+      "histories": [],
+      "created_at": "2023-11-06 18:56:23",
+      "updated_at": "2024-04-12 14:51:25"
+    },
+    {
+      "uuid": "7b1e2da9035648d3fdab93df51d1f3dc",
+      "puuid": "8cf07c1d4a4727d17f8db4cb7e126b35",
+      "title": "PCB_小菜鸡",
+      "filename": "PCB_小菜鸡.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5a52f3627e93469fbffe1922692072e9": 1,
+        "f66a4f5765984e949304af5f841dcb0b": 1,
+        "f25576e1e12c4792a9259a6aac54d5c1": 1,
+        "ad4aceaff0434a2e81f995f78c0ae8fc": 1,
+        "b4d13479337443b6a92a02b8f11dc358": 1,
+        "8d9caedc536e4aa8ab27dcb08ef364c1": 1,
+        "c12d8e8eff79432e98605595b2fdd35d": 1,
+        "3b1ef10fc5414eb6892c34e6bcd68bb1": 1,
+        "32c683d445e1406c86800121870e3ecd": 1,
+        "04131258d9c54fdd927bf7645adcf864": 1
+      },
+      "BOM": [],
+      "updateTime": 1702031021,
+      "createTime": 1699626531,
+      "histories": [],
+      "created_at": "2023-11-10 22:28:51",
+      "updated_at": "2023-12-08 18:23:41"
+    },
+    {
+      "uuid": "f6250e74bd6aa86314211f4def54e724",
+      "puuid": "8cf07c1d4a4727d17f8db4cb7e126b35",
+      "title": "PCB_小菜鸡_2",
+      "filename": "PCB_小菜鸡_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5a52f3627e93469fbffe1922692072e9": 1,
+        "f25576e1e12c4792a9259a6aac54d5c1": 1,
+        "f66a4f5765984e949304af5f841dcb0b": 1,
+        "ad4aceaff0434a2e81f995f78c0ae8fc": 1,
+        "b4d13479337443b6a92a02b8f11dc358": 1,
+        "8d9caedc536e4aa8ab27dcb08ef364c1": 1,
+        "c12d8e8eff79432e98605595b2fdd35d": 1,
+        "3b1ef10fc5414eb6892c34e6bcd68bb1": 1,
+        "32c683d445e1406c86800121870e3ecd": 1,
+        "04131258d9c54fdd927bf7645adcf864": 1
+      },
+      "BOM": [],
+      "updateTime": 1702095226,
+      "createTime": 1702028414,
+      "histories": [],
+      "created_at": "2023-12-08 17:40:14",
+      "updated_at": "2023-12-09 12:13:46"
+    }
+  ],
+  "sort": [],
+  "title": "小菜鸡",
+  "foldername": "小菜鸡",
+  "schfilename": "小菜鸡.json",
+  "schfilemtime": 1712904685601
+}
